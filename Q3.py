@@ -17,8 +17,9 @@ print(f'o total dos números digitado foi: {total}')
 list = []
 
 for i in range(10): 
-    valor = int(input(f'Digite um número: {i+1}'))
+    valor = int(input(f'Digite o valor {i+1}: '))
     list.append(valor)
 
 print(f'os números digitados foram: {list}')
-
+print(f'o maior número foi: {sum(list)}')
+print(f'a soma dos números foi: {sum(list)}')
