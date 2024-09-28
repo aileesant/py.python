@@ -1,7 +1,7 @@
 list = []
 
 for i in range(10): 
-    valor = int(input('Digite um número: '))
+    valor = int(input(f'Digite um número: {i+1}'))
     list.append(valor)
 
 print(f'os números digitados foram: {list}')
