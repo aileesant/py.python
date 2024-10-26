@@ -21,7 +21,7 @@ def imc():
 
 #------------------fim função---------------------------
 
-#-------- riação da janela ---------------------
+#-------- criação da janela ---------------------
 ctk.set_appearance_mode('dark') #modo darkj
 
 janela = ctk.CTk() #criar a janela
@@ -52,7 +52,7 @@ altura = ctk.CTkEntry(janela,
                     font=('arial', 16))
 altura.pack(pady=10) #ativa a janela. pady é o espaçamento entre as janelas
 
-#------------------- botao --------------------------
+#------------------- botão --------------------------
 botao = ctk.CTkButton(janela,
                       width=200,
                       height=60,
